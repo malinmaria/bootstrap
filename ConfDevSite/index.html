@@ -33,6 +33,19 @@
     </nav>
     <!-- /navbar -->
 
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info">
+      <div class="container text-xs-center p-t-3">
+        <h1 class="display-2">Full Stack Conf<h1>
+        <p class="lead">A one day conference about all things Javascript!</p>
+        <div class="btn-group m-t-2" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+          <a class="btn btn-secondary btn-lg" href="#speakers">See Speakers</a>
+        </div>
+      </div>
+    </div>    
+    <!-- /jumbotron -->
+
     <div class="container p-t-2">
       <!-- About  -->
       <div class="row">
@@ -61,12 +74,15 @@
         </div>
       </div> <!--/About  -->
       <!-- speakers  -->
-      <h1 class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
+      <h1 id="speakers" class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
       [speaker bios go here]
 
       <!-- schedule  -->
       <h1 class="display-4 text-xs-center m-y-3 text-muted">Schedule</h1>
       [schedule goes here]
+
+      <!-- callout button -->
+      <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3">Don't miss out, Register now!</button>
 
       <!-- signup form -->
       <hr>
