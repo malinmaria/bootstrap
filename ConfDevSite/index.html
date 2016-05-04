@@ -210,7 +210,7 @@
     <div id="register" class="modal fade">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header bg-info">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -218,6 +218,12 @@
           </div>
           <div class="modal-body">
             <!--registration form-->
+            <div class="alert alert-warning alert-dismissible fade in" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <strong>Hurry!</strong> Early bird registration ends in 2 days.
+            </div>
             <form>
               <h5 class="m-b-2">Basic Info</h5>
               <fieldset class="form-group">
@@ -230,7 +236,7 @@
               </fieldset>
               <fieldset class="form-group">
                 <label for="role">Job Role:</label>
-                <select class="form-control" id="role" name="user_role">
+                <select class="c-select form-control" id="role" name="user_role">
                   <option value="full stack js developer">Full Stack JavaScript Developer</option>
                   <option value="front end developer">Front End Developer</option>
                   <option value="back end developer">Back End Developer</option>
@@ -238,6 +244,36 @@
                   <option value="student">Student</option>
                 </select>
               </fieldset>
+              <hr class="m-y-2">
+              <h5 class="m-b-2">Which topics interest you most?</h5>
+              <div class="form-group c-inputs-stacked">
+                <label class="c-input c-checkbox">
+                  <input type="checkbox">
+                  <span class="c-indicator"></span>
+                  JavaScript Frameworks
+                </label>
+                <label class="c-input c-checkbox">
+                  <input type="checkbox">
+                  <span class="c-indicator"></span>
+                  JavaScript Libraries
+                </label>
+                <label class="c-input c-checkbox">
+                  <input type="checkbox">
+                  <span class="c-indicator"></span>
+                  Node.js
+                </label>
+                <label class="c-input c-checkbox">
+                  <input type="checkbox">
+                  <span class="c-indicator"></span>
+                  Build Tools
+                </label>
+                <label class="c-input c-checkbox">
+                  <input type="checkbox">
+                  <span class="c-indicator"></span>
+                  ES2015
+                </label>
+              </div>
+
             </form>
             <!--/registration form-->
           </div>
