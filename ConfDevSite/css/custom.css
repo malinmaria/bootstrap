@@ -7,3 +7,10 @@
 .active {
     transition: .4s;
 }
+a{
+    color: initial;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
