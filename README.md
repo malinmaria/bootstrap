@@ -6,3 +6,6 @@ stand alone landing page for a mock Dev Conference, using only html and bootstra
 
 ###ConfDevSite
 stand alone site for a mock Dev Conference, written in html, bootstrap and custom css. includes jumobtron, scrollspy, lists, cards, collapsible content, and a registration modal.
+
+###threadly
+super simple project following live codecademy tutorial, includes html, bootstrap, custom css, and jQuery
